@@ -1,7 +1,17 @@
+* {
+    margin: 0 auto;
+}
+
+
+body {
+    background-image: url("Image/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .brown-sugar {
     color: #a52a2a;
     font-family: 'roboto';
-    margin: 50px!important;
 }
 
 #table-yuk {
@@ -11,4 +21,44 @@
     margin-left: 100px;
     background-color: aqua;
     padding: 20px;
+    display: block;
 }
+
+#box-head {
+    margin-top: 10px;
+    width: 900px;
+    background-color: #ffff;
+    padding: 5px;
+    height: 300px;
+}
+
+.box {
+    margin-top: 10px;
+    width: 350px;
+    background-color: rgb(8, 183, 226);
+    margin-right: 10px;
+    float: left;
+    padding: 30px;
+}
+
+p::first-letter {
+    font-size: xx-large;
+}
+div a {
+    color: rgb(14, 18, 24);
+}
+
+div a:hover {
+    text-decoration: none;
+    color:rgb(42, 129, 241)
+}
+
+
+.daftar li {
+    display: inline;
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+    color:#ffff;
+}
+
