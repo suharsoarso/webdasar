@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #eff4fd;
+}
+
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+.detel{
+    margin-left: 8%;
+    margin-top: 13%;
+
+}
+
+.detel h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+p::first-letter {
+    font-size: small;
+}
+
+span{
+    color: orange;
+}
+
+.detel p{
+    color: #555;
+    line-height: 22px;
+}
+
+.detel a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.Image{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+
+}
+
+.Image img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.Image:hover .Shape{
+    bottom: 40px;
+}
+
+.Image:hover .Foto{
+    left: 45%;
+}
+
+section {
+    padding: 40px 100px;
+    background-image: url("Image/section.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+  }
+
+.section-title {
+    position: relative;
+    color: orange;
+    font-size: 30;
+    font-weight: 700;
+  }
+
+
+h4{
+    color: yellow;
+}
+
+.about{
+    min-height: 60vh;
+}
+
+p{
+  color: #010308;
+}
+
+.aboutme{
+color:#eff4fd
+}
+
+ul{
+  color:#eff4fd
+}
+ol{
+  color:#eff4fd
+}
+  
+.PORTFOLIO {
+    min-height: 60vh;
+  }
+  
+  .PORTFOLIO .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .PORTFOLIO .content .card {
+    width: 250px;
+    margin: 15px;
+  }
+  
+  .PORTFOLIO .content .img-card {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .PORTFOLIO .content .img-card img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.5s ease;
+  }
+  
+  .PORTFOLIO .content .img-card img:hover {
+    transform: scale(1.2);
+  }
+
+  .SERVICES {
+    min-height: 60vh;
+  }
+
+  .row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+  
+  .box{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 380px;
+    border: 1px solid black ;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgb(255,45,45) 50%, white 50%); 
+    background-size: 100% 200%;
+    transition: all .8s;
+  }
+
+  .box:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgb(255,45,45);
+  }
+
+  .box img{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    padding: 10px;
+  }
+
+  .CONTACT {
+    min-height: 60vh;
+  }
+
+  .CONTACT .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .CONTACT .content .card {
+    width: 100px;
+    margin: 15px;
+  }
+  
+  .CONTACT .content .img-card {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .CONTACT .content .img-card img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.5s ease;
+  }
+  
+  .CONTACT .content .img-card img:hover {
+    transform: scale(1.2);
+  }
+
+  
