@@ -1,0 +1,17 @@
+.jumbotron {
+  padding: 2rem 1rem;
+  background-color: white;
+}
+
+.list-inline-item img {
+  width: 25px;
+  height: 25px;
+}
+
+footer {
+  margin-top: 100px;
+}
+
+.text-justify {
+  text-align: justify;
+}
